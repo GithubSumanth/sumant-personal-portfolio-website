@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumant Portfolio</title>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Martian+Mono:wght@300;400;500&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Oregano&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- .header -->
+    <header class="header padding--horizontal--large border-design--1">
+      <nav class="navigation">
+        <ul class="container navigation__container">
+          <li class="navigation__list">
+            <a href="#" class="navigation__list__link font-menu-item">home</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#" class="navigation__list__link font-menu-item">about</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#" class="navigation__list__link font-menu-item"
+              >skills</a
+            >
+          </li>
+          <li class="navigation__list">
+            <a href="#" class="navigation__list__link font-menu-item"
+              >projects</a
+            >
+          </li>
+          <li class="navigation__list">
+            <a href="#" class="navigation__list__link font-menu-item"
+              >contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="wrapper header__container">
+        <div class="container header__container--intro container--1-of-2">
+          <h2 class="heading heading--tertiary font-white">Hi there, I am</h2>
+          <h1 class="heading heading--primary font-gradient">Sumant Kumbar.</h1>
+          <h4 class="heading--quaternary margin-verticle-medium">
+            I'm a designer, developer and passionate coder who loves programming
+            and is dedicated to delivering high-quality work.
+          </h4>
+          <h4 class="heading--quaternary">
+            <a class="btn btn--explore" href="#about"> Click here</a> to explore
+            more.
+          </h4>
+        </div>
+        <div
+          class="container header__container--picture container--1-of-2 flex-center"
+        >
+          <div class="circle circle--1">
+            <img
+              src="Images/profile-image-1.jpg"
+              alt="Profile Image Sumant Kumbar"
+              class="fit-image"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header. -->
+
+    <main class="main border-design--2">
+      <section class="section section--about" id="about">
+        <h2
+          class="heading heading--secondary font-gradient margin-bottom-medium padding--horizontal--medium"
+        >
+          &lt;About/&gt;
+        </h2>
+        <p class="para padding--horizontal--medium">
+          Hi, I'm Sumant Kumbar, a designer and developer with a passion for
+          coding and UI/UX design. I'm always seeking new and innovative ways to
+          create stunning, effective websites that delight users. In addition to
+          my expertise in web development, I also have a strong foundation in
+          data structures and algorithms, which allows me to build powerful and
+          efficient solutions.
+        </p>
+        <p class="para padding--horizontal--medium margin-bottom-large">
+          My goal is to be organized and manage my time well, allowing me to
+          deliver high-quality work on time and on budget. I believe that the
+          key to success is staying curious and constantly learning, which is
+          why I'm always exploring new fields related to coding.
+        </p>
+        <p class="para"></p>
+
+        <div class="section__container">
+          <div class="container container--1-of-3">
+            <div class="circle circle--2">
+              <img
+                src="Images/profile-image-2.jpg"
+                alt="Profile Image Sumant Kumbar"
+                class="fit-image"
+              />
+            </div>
+          </div>
+          <div class="container container--2-of-3">
+            <h3 class="heading heading--tertiary font-gradient">
+              &lt;Personal-Info&gt;
+            </h3>
+            <div class="code-block">
+              <pre class="pre" id="code-box">
+  <code class="code">     let personalInfo = <span class="bracket">{<span/></code>
+  <code class="code key">          name: <span class="value">"Sumant Kumbar"</span>,</code>
+  <code class="code key">          dateOfBirth: <span class="value">"15/11/1999"</span>,</code>
+  <code class="code key">          place: <span class="value">"Banglore"</span>,</code>
+  <code class="code key">          email: <span class="value">"my.official.sumanth@gmail.com"</span>,</code>
+  <code class="code key">          occupation: <span class="value">"Salesforce Developer"</span>,</code>
+  <code class="code">     <span class="bracket">}</span>;</code>
+  <code class="code"></code>
+  <code class="code font-white">     console.log(personalInfo); <span class="btn--run btn--run--animation material-symbols-rounded">play_arrow</span>// Click to run</code></pre>
+            </div>
+            <h3 class="heading heading--tertiary font-gradient">
+              &lt;/Personal-Info&gt;
+            </h3>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <main class="main border-design--1">
+      <section class="section section--skills" id="about">
+        <h2
+          class="heading heading--secondary font-gradient margin-bottom-medium padding--horizontal--medium"
+        >
+          &lt;Skills/&gt;
+        </h2>
+        <pre class="skill-code margin-bottom-large"><h3 class="heading heading--tertiary font-gradient padding--horizontal--medium margin-bottom-small">def    get_skills( base_url ):</h3>
+<code class="code">        skills = request.get(base_url+"skills")</code>
+<code class="code"></code>
+<code class="code">        print(skills.status)</code>
+<code class="code">        #output: <span class="status btn--run--animation"></span></code>
+<code class="code"></code>
+<code class="code">        if skills.status == "SUCCESS":</code>
+<code class="code">            print(skills.json())</code>
+<code class="code"></code>
+<code class="code"></code>
+<code class="code font-white">  get_skills("https://www.sumant.com") <span class="btn-skill-run btn--run--animation material-symbols-rounded">play_arrow</span> # Click run</code></pre>
+        <div class="container container--absolute">
+          <div class="circle circle--3   container--skills margin-bottom-medium">
+            <img src="Images/profile-image-3.jpg" alt="Sumant Profile Image" class="fit-image">
+          </div>
+          <p class="para--2">Ask me my skills by clicking on the run button.</p>
+        </div>
+        <div class="routers hide routers--1"></div>
+        <div class="routers hide routers--2"></div>
+
+        <div class="wire wire--horizontal"></div>
+        <div class="wire wire--horizontal"></div>
+
+          <div class="container grid hide grid--skill">
+            <div class="skill skill--1 cell-col-1 cell-row-1">
+              <div class="skill__container">
+                <p class="skill__name"></p>
+                <p class="skill__percentage"></p>
+              </div>
+              <div class="scale__outer-container">
+                <div class="scale__inner-container"></div>
+              </div>
+            </div>
+            <div class="skill skill--2 cell-col-2 cell-row-1">
+              <div class="skill__container">
+                <p class="skill__name"></p>
+                <p class="skill__percentage"></p>
+              </div>
+              <div class="scale__outer-container">
+                <div class="scale__inner-container"></div>
+              </div>
+            </div>
+            <div class="skill skill--3 cell-col-1 cell-row-2">
+              <div class="skill__container">
+                <p class="skill__name"></p>
+                <p class="skill__percentage"></p>
+              </div>
+              <div class="scale__outer-container">
+                <div class="scale__inner-container"></div>
+              </div>
+            </div>
+            <div class="skill skill--4 cell-col-2 cell-row-2">
+              <div class="skill__container">
+                <p class="skill__name"></p>
+                <p class="skill__percentage"></p>
+              </div>
+              <div class="scale__outer-container">
+                <div class="scale__inner-container"></div>
+              </div>
+            </div>
+            <div class="skill skill--5 cell-col-1 cell-row-3">
+              <div class="skill__container">
+                <p class="skill__name"></p>
+                <p class="skill__percentage"></p>
+              </div>
+              <div class="scale__outer-container">
+                <div class="scale__inner-container"></div>
+              </div>
+            </div>
+            <div class="skill skill--6 cell-col-2 cell-row-3">
+              <div class="skill__container">
+                <p class="skill__name"></p>
+                <p class="skill__percentage"></p>
+              </div>
+              <div class="scale__outer-container">
+                <div class="scale__inner-container"></div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
